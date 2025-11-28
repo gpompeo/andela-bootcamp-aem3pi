@@ -154,7 +154,7 @@ Expected output:
 Run cells to initialize LLMs, prompts, and RAG chains:
 
 - Sets up deterministic LLM (temperature=0) for orchestration
-- Sets up creative LLM (temperature=0.2) for agent responses
+- Sets up creative LLM (temperature=0.3) for agent responses
 - Creates specialized RAG chains for each agent
 
 #### 4. Orchestration & Routing (Section 4)
@@ -229,7 +229,7 @@ The system automatically evaluates each agent response on:
 # Process a query
 result = process_query(
     query="How do I request vacation time?",
-    conversation_id="user_123",  # Optional: for conversation tracking
+    conversation_id="chat_123",  # Optional: for conversation tracking
     verbose=True                  # Optional: print detailed agent responses
 )
 

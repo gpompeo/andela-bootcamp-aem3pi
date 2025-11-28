@@ -1,0 +1,58 @@
+[
+  {
+    "Query": "What is the vacation policy?",
+    "Intent": "{'action': 'route', 'agents': ['HR']}"
+  },
+  {
+    "Query": "How do I connect to the VPN?",
+    "Intent": "{'action': 'route', 'agents': ['Tech']}"
+  },
+  {
+    "Query": "What are the travel reimbursement limits?",
+    "Intent": "{'action': 'route', 'agents': ['Finance']}"
+  },
+  {
+    "Query": "How can I get a discount on my subscription plan?",
+    "Intent": "{'action': 'route', 'agents': ['Commercial']}"
+  },
+  {
+    "Query": "I need to reset my password and schedule my vacations.",
+    "Intent": "{'action': 'route', 'agents': ['HR','Tech']}"
+  },
+  {
+    "Query": "I have a problem",
+    "Intent": "{'action': 'clarify', 'agents': []}"
+  },
+  {
+    "Query": "I want to cancel my subscription",
+    "Intent": "{'action': 'route', 'agents': ['Commercial']}"
+  },
+  {
+    "Query": "I need help with three things: updating my payroll information, request a software license, and understanding the pricing for upgrading my plan.",
+    "Intent": "{'action': 'route', 'agents': ['HR', 'Tech', 'Commercial']}"
+  },
+  {
+    "Query": "I need to reset my VPN password, check how many vacation days I have and how to get a loan?",
+    "Intent": "{'action': 'route', 'agents': ['HR', 'Tech', 'Finance']}"
+  },
+  {
+    "Query": "Can you tell me about the company's history?",
+    "Intent": "{'action': 'clarify', 'agents': []}"
+  },
+  {
+    "Query": "How do payments work?",
+    "Intent": "{'action': 'clarify', 'agents': []}"
+  },
+  {
+    "Query": "How do I request vacation AND submit a sick leave note?",
+    "Intent": "{'action': 'route', 'agents': ['HR']}"
+  },
+  {
+    "Query": "I need help with VPN and also something else that's not working",
+    "Intent": "{'action': 'clarify', 'agents': []}"
+  },
+  {
+    "Query": "I want to upgrade to Enterprise plan and also cancel my subscription",
+    "Intent": "{'action': 'route', 'agents': ['Commercial']}"
+  }
+]
